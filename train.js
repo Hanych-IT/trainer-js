@@ -11,8 +11,8 @@
 // } else {
 //   console.log("Overdue")
 // }
-  
-// switch(true) { 
+
+// switch(true) {
 //   case hours < 17:
 //     console.log("Pending");
 //     break;
@@ -20,7 +20,7 @@
 //   case hours >= 17 && hours <= 24:
 //     console.log("Exprise");
 //     break;
-    
+
 //   default:
 //     console.log("Overdue");
 //     break;
@@ -39,7 +39,7 @@
 //   console.log("Осень");
 // } else  {
 // console.log("Вы вписали неправильные данные");
-// } 
+// }
 
 // const email = prompt("Enter your email")
 
@@ -107,7 +107,7 @@
 // let massege;
 
 // for (const client of clients) {
- 
+
 //   if (client === clientToFind) {
 //     massege = "Клиент нашелся"
 //     break;
@@ -147,7 +147,7 @@
 // console.log(nameLanguage.join("_"));
 // console.log(nameLanguage.join("-"));
 
-// метод join() - соединяет элементы массива в строку. Противополжный методу split(). 
+// метод join() - соединяет элементы массива в строку. Противополжный методу split().
 
 // =================================================================================
 
@@ -179,3 +179,63 @@
 // }
 
 // ===================================================================================
+
+// метод push() - добавляет крайний правый элемент массива
+
+// const number = [];
+
+// number.push(1);
+// console.log(number); [1]
+
+// number.push(2);
+// console.log(number); [1, 2]
+
+// number.push(3);
+// console.log(number); [1, 2, 3]
+
+// number.push(4);
+// console.log(number); [1, 2, 3, 4]
+
+// метод pop() - отримает крайний правый элемент массива
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// numbers.pop(5);
+// console.log(numbers);
+
+// numbers.pop(4);
+// console.log(numbers);
+
+// numbers.pop(3);
+// console.log(numbers);
+
+// метод shift() - отнимает крайний левый элемент массива
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// numbers.shift(5);
+// console.log(numbers);
+
+// numbers.shift(4);
+// console.log(numbers);
+
+// numbers.shift(3);
+// console.log(numbers);
+
+// метод unshift() - добавляет крайний левый элемент массива
+
+// const number = [];
+
+// number.unshift(1);
+// console.log(number); // [1]
+
+// number.unshift(2);
+// console.log(number); // [2, 1]
+
+// number.unshift(3);
+// console.log(number); // [3, 2, 1]
+
+// number.unshift(4);
+// console.log(number); // [4, 3, 2, 1]
+
+// Данный вид методов работают только с крайним правым или крайним левым элементов массивов и не могут взаимодействовать с рандомным элементом массива в середине строки.
